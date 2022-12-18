@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200300,400,500,600,700,800,900&display=swap');
+
+.purple {
+    color: rgb(204, 103, 231);
+}
+
+.black{
+    background-color: black;
+}
+
+.btnnight {
+    background:linear-gradient(90deg,#7c00ff,#d800ff);
+    margin:10px 0;
+    padding:12px 36px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 40px;
+    overflow: hidden;
+   }
+
+.btnday {
+    background:linear-gradient(90deg,#ffff8c,#ffc100);
+    margin:10px 0;
+    padding:12px 36px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 40px;
+    overflow: hidden;
+   }
+
+
+.btn{
+    margin:10px 0;
+    padding:12px 36px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 40px;
+    overflow: hidden;
+    background:linear-gradient(90deg,#7c00ff,#d800ff);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+span{
+    position: absolute;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    pointer-events:none;
+    border-radius:50%;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        width:0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%
+    {
+        width:500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
+
+.btn2{
+    margin:10px 0;
+    padding:12px 36px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.btn2_1
+{
+    background:linear-gradient(45deg,#7c00ff,#d800ff);
+}
+
+.btn2_2
+{
+    background:linear-gradient(45deg,#d800ff,#7c00ff);
+}
+
+.btn2_3
+{
+    background-color: red;
+}
+
+
